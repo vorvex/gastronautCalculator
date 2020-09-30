@@ -98,3 +98,67 @@ Please upgrade using npm install --save firebase-functions@latest in your functi
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2020-09-30T16:52:05.391Z] ----------------------------------------------------------------------
+[debug] [2020-09-30T16:52:05.393Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:gastronautCalculator
+[debug] [2020-09-30T16:52:05.393Z] CLI Version:   8.4.2
+[debug] [2020-09-30T16:52:05.393Z] Platform:      darwin
+[debug] [2020-09-30T16:52:05.393Z] Node Version:  v12.18.1
+[debug] [2020-09-30T16:52:05.395Z] Time:          Wed Sep 30 2020 18:52:05 GMT+0200 (GMT+02:00)
+[debug] [2020-09-30T16:52:05.395Z] ----------------------------------------------------------------------
+[debug] [2020-09-30T16:52:05.395Z] 
+[debug] [2020-09-30T16:52:05.406Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-30T16:52:05.406Z] > authorizing via signed-in user
+[debug] [2020-09-30T16:52:05.407Z] [iam] checking project schillingroofbarhd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-30T16:52:05.409Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/schillingroofbarhd:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-30T16:52:05.787Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 30 Sep 2020 16:52:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=134","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-30T16:52:05.790Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/schillingroofbarhd  
+ 
+[debug] [2020-09-30T16:52:06.194Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 30 Sep 2020 16:52:06 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions.
+Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[info] 
+[info] === Deploying to 'schillingroofbarhd'...
+[info] 
+[info] i  deploying hosting 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/schillingroofbarhd/overview
+[debug] [2020-09-30T16:52:09.341Z] TypeError: Cannot read property 'deploys' of undefined
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:84:36
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-30T16:53:17.278Z] ----------------------------------------------------------------------
+[debug] [2020-09-30T16:53:17.280Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:gastronautCalculator
+[debug] [2020-09-30T16:53:17.280Z] CLI Version:   8.4.2
+[debug] [2020-09-30T16:53:17.280Z] Platform:      darwin
+[debug] [2020-09-30T16:53:17.280Z] Node Version:  v12.18.1
+[debug] [2020-09-30T16:53:17.281Z] Time:          Wed Sep 30 2020 18:53:17 GMT+0200 (GMT+02:00)
+[debug] [2020-09-30T16:53:17.281Z] ----------------------------------------------------------------------
+[debug] [2020-09-30T16:53:17.282Z] 
+[debug] [2020-09-30T16:53:17.294Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-30T16:53:17.294Z] > authorizing via signed-in user
+[debug] [2020-09-30T16:53:17.295Z] [iam] checking project schillingroofbarhd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-30T16:53:17.298Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/schillingroofbarhd:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-30T16:53:18.304Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 30 Sep 2020 16:53:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=617","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-30T16:53:18.306Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/schillingroofbarhd  
+ 
+[debug] [2020-09-30T16:53:18.701Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 30 Sep 2020 16:53:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions.
+Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[info] 
+[info] === Deploying to 'schillingroofbarhd'...
+[info] 
+[info] i  deploying hosting 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/schillingroofbarhd/overview
+[debug] [2020-09-30T16:53:21.430Z] TypeError: Cannot read property 'deploys' of undefined
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:84:36
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
